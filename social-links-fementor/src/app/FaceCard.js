@@ -11,11 +11,11 @@ export const user = {
 export default function FaceCard(props) {
   const { username, location, bio, url } = props;
   return (
-    <div className="flex flex-col items-center p-3">
+    <div className="flex flex-col items-center px-3 pt-3">
       <img src={url} className="rounded-full h-24 w-24 mb-3" />
       <h1>{username}</h1>
       <h3>{location}</h3>
-      <p>{bio}</p>
+      <p className='mt-5'>{bio}</p>
     </div>
   );
 }

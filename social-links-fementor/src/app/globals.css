@@ -12,16 +12,17 @@
 p {
     font-size: 12px;
 }
-/**/
+/* name */
 h1 {
     font-size: 17px;
     font-weight: bold;
 }
-/* bio */
+/* location */
 h3 {
     font-size: 14px;
     padding: 2px;
-    color:hsl(75, 94%, 57%)
+    color:rgb(197 248 42 / 90%);
+    font-weight: 600;
 }
 
 .attribution { font-size: 11px; text-align: center; }

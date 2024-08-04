@@ -19,7 +19,7 @@ export default function SocialLinks(props) {
           <a href="#" key={social}>
             <button
               type="button"
-              className="socialbutton py-1 w-40 m-1 rounded text-xs social"
+              className="socialbutton w-60 h-9 m-1 rounded text-xs font-[600] social"
             >
               {social}
             </button>

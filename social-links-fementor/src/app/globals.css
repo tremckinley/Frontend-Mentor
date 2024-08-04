@@ -1,10 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Inter';
+    src: url('../../fonts/static/Inter-Regular.ttf');
+}
+* {
+    font-family: 'Inter';
+}
+
+p {
+    font-size: 12px;
+}
+/**/
+h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+/* bio */
+h3 {
+    font-size: 14px;
+    padding: 2px;
+    color:hsl(75, 94%, 57%)
+}
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%) }
 
+.social {
+   background-color: hsl(0, 0%, 20%);
+   color: white;
+}
+.social:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: bold;
+}
 
+.background {
+    background-color: hsl(0, 0%, 8%);
+}
 
+.card {
+    background-color: hsl(0, 0%, 12%);
+} 
 

@@ -1,9 +1,14 @@
 import SocialLinks from "./Social-links";
 import FaceCard from "./FaceCard";
 import { user } from "./FaceCard";
+import Head from "next/head";
 
 export default function Home() {
   return (
+    <div>
+    <Head>
+       <link rel='icon' href="/favicon.ico" />
+    </Head>
     <div className="h-screen background text-white flex flex-col justify-center items-center">
       <div className="card flex flex-col p-5 items-center rounded-lg">
         <FaceCard
@@ -22,6 +27,7 @@ export default function Home() {
         </a> 
         Coded by <b>Tremaine McKinley.</b>
       </div>
+    </div>
     </div>
   );
 }

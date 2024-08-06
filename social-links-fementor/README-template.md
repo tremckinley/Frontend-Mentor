@@ -21,14 +21,15 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ## Overview
 
 ### The challenge
+This design was completed using my working frontend knowledge along with the provided style guide and Figma file.
+Part of the challenge was to meet both the functional and style requirement given to be through the design files.
 
 Users should be able to:
-
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -41,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Deployed with Vercel](https://social-links-fementor.vercel.app/)
 
 ## My process
 
@@ -50,61 +51,52 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The challenge I gave myself for this lesson was to put my React skills to the test out of learning modules. This challenge could have been completed using HTML and CSS, but my goal is to build my JavaScript skills on the frontend.
+My challenge began with step 1, initiating a working React app using Next.js. To to this, I read the documentation, reached out to friends for the best tools to learn with and committed to configuring a live site on my local server.
+My final challenge came at the end when it was time to deploy the site to the web. Again, I took an example from a friend and decided on Vercel over GitHub pages and Surge, both of which I've used in the past for static pages. 
 
-To see how you can add code snippets, see below:
+The coding challenge for me here was using a mix of vanilla CSS and Tailwind CSS in a way that looked clean. I took some high-leve styles and placed them in a CSS file, while some of the more fine-tuned spacing was done using Tailwind.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+p {
+    font-size: 12px;
+} 
+/* name */
+h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+/* location */
+h3 {
+    font-size: 14px;
+    padding: 2px;
+    color:rgb(197 248 42 / 90%);
+    font-weight: 600;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Most importantly, I was able to practice working off of a Figma file, which is a necessary skill for frontend builders.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will continue building my understanding of the Next.js app structure and how to more properly mix Tailwind and vanilla CSS. I put a lot of time into figuring out how to mix the two here for this static site, but want to use a more conventional means on more complicated projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Next deployment instructions](https://nextjs.org/docs/getting-started/installation) - Reading this documentation got me started. Understanding how to read documentation and learn of the fly is important in any tech-facing career. You can do it, face the challenge!
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@tremckinley](https://www.frontendmentor.io/profile/tremckinley)
+- LinkedIn 👋 - [Let's connect!](https://www.linkedin.com/in/tremaine-mckinley)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks to Rob Crocker for the encouragement and assistance on this one! If not for the added motivation of sharing my work, I likely would have done just another HTML/CSS until I felt more "comfortable". Instead, I'm fired up! 🔥
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

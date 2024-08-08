@@ -10,7 +10,7 @@ export default function Home() {
        <link rel='icon' href="/favicon.ico" />
     </Head>
     <div className="h-screen background text-white flex flex-col justify-center items-center">
-      <div className="card flex flex-col p-5 items-center rounded-lg">
+      <div className="card flex flex-col items-center rounded-lg">
         <FaceCard
           username={user.username}
           bio={user.bio}

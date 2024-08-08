@@ -13,7 +13,7 @@ export default function SocialLinks(props) {
   ];
   const { link } = props;
   return (
-    <div className="flex flex-col mt-2">
+    <div className="flex flex-col">
       {socials.map((social) => {
         return (
           <a href="#" key={social}>

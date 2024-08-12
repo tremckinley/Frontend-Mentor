@@ -3,7 +3,7 @@ import BlogImage from "../../assets/images/blogimage";
 
 export default function Home() {
   return (
-  <div className="flex min-h-screen bg-yellow-300 w-full">
+  <div id="backg" className="flex min-h-screen bg-yellow-300 w-full">
     <div id="card" className="flex flex-col items-center h-fit bg-white p-6 max-w-96 min-w-72 border border-black rounded-lg m-auto">
       <BlogImage/>
       <div id='content' className="flex flex-col w-fill pt-6">

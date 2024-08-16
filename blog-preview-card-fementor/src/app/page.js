@@ -4,7 +4,7 @@ import BlogImage from "../../assets/images/blogimage";
 export default function Home() {
   return (
   <div id="backg" className="flex min-h-screen bg-yellow-300 w-full">
-    <div id="card" className="flex flex-col items-center h-fit bg-white p-6 max-w-96 min-w-72 border border-black rounded-lg m-auto">
+    <div id="card" className="flex flex-col items-center h-fit bg-white p-6 max-w-96 min-w-72 border border-black rounded-[20px] m-auto">
       <BlogImage/>
       <div id='content' className="flex flex-col w-fill pt-6">
         <div id='category' className="flex w-fit py-1 px-3 font-extrabold text-sm bg-yellow-300 rounded text-center mb-3">Learning</div>

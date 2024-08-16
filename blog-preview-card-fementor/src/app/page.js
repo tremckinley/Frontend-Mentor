@@ -12,7 +12,7 @@ export default function Home() {
         <div id='title' className="font-extrabold text-[24px] my-3 active:text-yellow-300 cursor-pointer">HTML & CSS foundations</div>
         <div className="font-md text-sm text-gray-500 my-3">These languages are the backbone of every website, defining structure, content, and presentation.</div>
         <div className="flex items-center pt-3">
-        <Image src="/./assets/images/image-avatar.jpg.png" alt="avatar" height={32} width={32}/>
+        <Image src="/favicon.ico" alt="avatar" height={40} width={40}/>
         <div id="authorName" className="flex ml-2 text-gray-950 text-sm font-extrabold">Greg Hooper</div>
         </div>
 

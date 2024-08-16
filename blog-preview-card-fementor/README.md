@@ -34,8 +34,8 @@ Screenshot of live site with focus state showing on one element.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Deployed with Vercel](https://social-links-fementor.vercel.app/)
+- Solution URL: [FE Mentor Solution](https://www.frontendmentor.io/solutions/react-blog-preview-card-gfPhF2i7md)
+- Live Site URL: [Deployed with Vercel](https://blog-preview-card-fementor.vercel.app/)
 
 ## My process
 

@@ -16,8 +16,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,7 +33,7 @@ Screenshot of live site with focus state showing on one element.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution Posted to Frontend Mentor](https://www.frontendmentor.io/solutions/nextjs-deployment-w-tailwind-css-FeEc7___ta)
 - Live Site URL: [Deployed with Vercel](https://social-links-fementor.vercel.app/)
 
 ## My process

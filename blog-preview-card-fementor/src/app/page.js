@@ -9,7 +9,7 @@ export default function Home() {
       <div id='content' className="flex flex-col w-fill pt-6">
         <div id='category' className="flex w-fit py-1 px-3 font-extrabold text-sm bg-yellow-300 rounded text-center mb-3">Learning</div>
         <div className="my-3 text-sm">Published 21 Dec 2023</div>
-        <div id='title' className="font-extrabold text-[24px] my-3">HTML & CSS foundations</div>
+        <div id='title' className="font-extrabold text-[24px] my-3 active:text-yellow-300 cursor-pointer">HTML & CSS foundations</div>
         <div className="font-md text-sm text-gray-500 my-3">These languages are the backbone of every website, defining structure, content, and presentation.</div>
         <div className="flex items-center pt-3">
         <Image src="/./assets/images/image-avatar.jpg.png" alt="avatar" height={32} width={32}/>
